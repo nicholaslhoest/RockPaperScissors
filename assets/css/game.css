@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.optionButton {
+    background-color: #ffddbc;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.optionButton:hover {
+    transform: scale(1.05);
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 4%;
+}
